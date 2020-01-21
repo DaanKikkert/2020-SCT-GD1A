@@ -20,7 +20,7 @@ function getRandomNumber(max)
 function drawCircle()
 {
     context.beginPath()
-    context.fillStyle = "red";
+    context.fillStyle = "green";
     context.arc(getRandomNumber(1000), getRandomNumber(1000), getRandomNumber(40),0,Math.PI*2);
     context.stroke();
     context.fill();
